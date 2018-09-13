@@ -1,0 +1,14 @@
+=> When python encounter a code it generates an exception Object:
+    - Exception object contains:
+        - Description
+        - Traceback
+
+=> Exception clauses:
+    - try:
+        - Runs first
+    - except:
+        - Runs if exceptions in the try block
+    - else:
+        - Execute if try block *succeeds*
+    - finally:
+        - This code *always* execute

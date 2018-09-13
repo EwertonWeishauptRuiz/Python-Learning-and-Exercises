@@ -1,0 +1,16 @@
+=> Ussualy the Unit test will work on a separate file.
+=> Naming Conventions:
+    - circles.py / test_circles.py (Name of the unit test)
+    - circles.py / circles_test.py (Name of the unit test)
+
+=> To have a unit test need to import import unittest, and to create a class as:
+    - class NameOfTheClass(unitttest.TestCase):
+
+=> To run a unit test on the shell, use:
+    - python -m unittest name_of_the_test
+        - ex: python -m unittest test_circles
+    - "-m" instructs python to run the unit test module as a script
+
+    - Another way to run unit test is:
+        - python -m unittest
+        - Python will automatically search for tests and run them

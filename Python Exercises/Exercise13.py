@@ -1,6 +1,5 @@
 #https://www.practicepython.org/exercise/2014/04/30/13-fibonacci.html
-#The Fibonnaci seqence is a sequence of numbers where the next number in 
-#the sequence is the sum of the previous two numbers in the sequence. The sequence looks like this
+#The Fibonnaci sequence is a sequence of numbers where the next number in the sequence is the sum of the previous two numbers in the sequence.
 
 amount = int(input("How many number from the sequence"))
 counter = 0

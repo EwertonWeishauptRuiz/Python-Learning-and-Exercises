@@ -1,0 +1,28 @@
+=> Logging
+    - Records progress and problems
+    - Levels:
+        - Debug
+        - Info
+        - Warning
+        - Error
+        - Critical
+
+=> Logging module
+    - import logging
+    - dir(logging)
+        - Entries in ALL CAPS are constants
+        - Entries itens Capitalized are Classes
+        - Entries with lower case letters are methods. 
+
+=> Logger Levels
+    - logger.Levels
+        - NOTSET = 0
+        - DEBUG = 10
+        - INFO = 20
+        - WARNING = 30
+        - ERROR = 40
+        - CRITICAL = 50
+    
+    - Logger will only write messages with the level greater then or equal to the set level.
+
+=> By default Logger is created in append mode. for it to be Rewritten all the time, you have to add to the configurations of the logger filemode = "w"    

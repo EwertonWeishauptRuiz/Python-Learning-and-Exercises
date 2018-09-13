@@ -1,0 +1,13 @@
+=> To create a class
+    - class NameOfTheClass(variables): -> Recomendable to capitalize every word letter in the class
+
+=> Class features
+    - Methods
+    - Class Initialization
+    - Help Text
+
+=> A function inside a class is called a method
+    - init method (a.k.a constructor)
+        - Method is called everytime you create a new instance of the class
+        # self is a reference to the new object being created
+        - def __init__(self, can add additional variables after)     

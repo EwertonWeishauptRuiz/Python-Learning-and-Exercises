@@ -22,7 +22,7 @@ elif(choice == "medium"):
 else:
     print(GenerateStrongPassword())
 
-# Another result
+# Another way of resolving the issue. 
 
 # import string
 # import random
